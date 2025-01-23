@@ -1,0 +1,33 @@
+*{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+
+}
+#class{
+   
+   align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    padding-left: 300px;
+  
+}
+
+#pic{
+    height:40%;
+    width:30%;
+    background-color: white;
+   
+   border-radius: 20%;
+   
+}
+#pic img{
+    object-fit: cover;
+}
+#div1{
+    height: max-content;
+   width: max-content;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}

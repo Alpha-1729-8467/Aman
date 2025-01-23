@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Figma by aman </title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+   
+<div id="page1">
+    <div id="header" >
+        <div id="bts">
+           <div><a href="page2.html"target="_blank" ><button>Home </button></a></div>
+           <div><a href="page1.html"target="_blank" ><button>Grid</button></a></div>
+           <div> <a href="https://www.linkedin.com/in/aman-yadav-987916321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"target="_blank"><button>LinkedIn</button></a></div>
+    
+        </div>
+       
+      </div>
+        <div class="boxes">
+            <div id="box1"></div>
+            <div id="box2">
+                <img src="Ecell.png">
+            </div>
+            <div id="box3">
+                <div id="div1">
+                    
+                   
+                    <div id="row1"onclick="changeColor(this)"  style="background-color: rgb(0, 30, 255);"></div>
+                    <div id="row2" onclick="changeColor(this)"  style="background-color: rgb(0, 30, 255);"></div>
+                    <div id="row3" onclick="changeColor(this)"  style="background-color: rgb(0, 30, 255);"></div>
+                </div>
+                <div id="div2">
+                    <div id="row4" onclick="changeColor(this)"  style="background-color: rgb(0, 30, 255);"></div>
+                    <div id="row5" onclick="changeColor(this)"  style="background-color: rgb(13, 0, 255);"></div>
+                    <div id="row6" onclick="changeColor(this)"  style="background-color: rgb(0, 30, 255);"></div>
+                </div>
+                <div id="div3">
+                    <div id="row7" onclick="changeColor(this)"  style="background-color: rgb(0, 30, 255);"></div>
+                    <div id="row8"  onclick="changeColor(this)" style="background-color: rgb(13, 0, 255);"></div>
+                    <div id="row9" onclick="changeColor(this)"  style="background-color:rgb(0, 30, 255);"></div>
+                </div>
+            </div>
+        </div>
+
+</div>
+
+<script>
+    function changeColor(element) {
+      
+      const currentColor = element.style.backgroundColor;
+
+      if (currentColor === 'blue' ) {
+        element.style.backgroundColor = 'red'; // Change to lightgreen
+      } else {
+        element.style.backgroundColor = 'blue'; // Reset to lightblue
+      }
+    }
+  </script>
+
+ 
+</body>
+</html>
